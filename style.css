@@ -63,14 +63,20 @@ a {
 
 
 .container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+  display: inline;
 }
 
-.container img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 20px;
+.cuadro {
+  width: 200px;
+  height: 200px;
+  object-fit: none;
+  margin: 10px;
+  object-position: bottom;
+}
+
+.imagen {
+  width: 200px;
+  height: 200px;
+  object-fit:contain;
+  margin: 10px;
 }
